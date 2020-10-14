@@ -1,0 +1,31 @@
+/* Палитра
+цвет текста color: #757575;
+цвет заголовков color: #212121;
+цвет акцента color: #2196F3;
+цвет фона main: #E5E5E5;
+цвет шапки и заголовка героя:#FFFFFF;
+цвет фона футера и геря: #2F303A;
+цвет фильтров:#F5F4FA;
+цвет контактов в футере:rgba(255, 255, 255, 0.6);
+ */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: 212121;
+  --accent-color: #2196f3;
+  --bg-main: #e5e5e5;
+  --white: #ffffff;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --filter-color: #f5f4fa;
+}
+
+.filter-button {
+  background-color: var(--filter-color);
+  color: var(--title-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
+}

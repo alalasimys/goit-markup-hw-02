@@ -16,6 +16,11 @@
   --bg-main: #e5e5e5;
   --white: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --bg-dark: #2f303a;
+}
+
+.header {
+  background-color: var(--white);
 }
 
 .link {
@@ -47,6 +52,14 @@
   color: var(--title-text-color);
 }
 
+.title {
+  color: var(--title-text-color);
+}
+
+.text {
+  color: var(--primary-text-color);
+}
+
 .contacts .link {
   color: var(--primary-text-color);
 }
@@ -72,4 +85,8 @@
 .footer-contact:focus,
 .address:focus {
   color: var(--accent-color);
+}
+
+footer {
+  background-color: var(--bg-dark);
 }
