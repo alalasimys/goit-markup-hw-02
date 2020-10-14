@@ -2,10 +2,65 @@
 цвет текста color: #757575;
 цвет заголовков color: #212121;
 цвет акцента color: #2196F3;
+цвет фона main: #E5E5E5;
+цвет шапки и заголовка героя:#FFFFFF;
+цвет фона футера и геря: #2F303A;
+цвет фильтров:#F5F4FA;
+цвет контактов в футере:rgba(255, 255, 255, 0.6);
  */
 
 :root {
   --primary-text-color: #757575;
   --title-text-color: 212121;
   --accent-color: #2196f3;
+  --bg-main: #e5e5e5;
+  --white: #ffffff;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-color {
+  color: #2196f3;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.header-logo {
+  color: var(--title-text-color);
+}
+
+.navigation .link {
+  color: var(--title-text-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.navigation .link:hover,
+.contacts .link:hover {
+  color: var(--accent-color);
+}
+
+.address,
+.footer-logo {
+  color: var(--white);
+}
+
+.footer-contact {
+  color: var(--footer-contact-color);
 }
