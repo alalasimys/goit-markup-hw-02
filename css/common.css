@@ -52,7 +52,9 @@
 }
 
 .navigation .link:hover,
-.contacts .link:hover {
+.contacts .link:hover,
+.navigation .link:focus,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -63,4 +65,11 @@
 
 .footer-contact {
   color: var(--footer-contact-color);
+}
+
+.footer-contact:hover,
+.address:hover,
+.footer-contact:focus,
+.address:focus {
+  color: var(--accent-color);
 }
