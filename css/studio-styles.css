@@ -16,13 +16,28 @@
   --bg-main: #e5e5e5;
   --white: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --bg-team: #f5f4fa;
 }
 
 .hero-title,
 .hero-button {
   color: var(--white);
 }
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
   color: var(--white);
   background-color: var(--accent-color);
 }
@@ -35,4 +50,48 @@
 
 .hero {
   background-color: var(--bg-dark);
+}
+
+.benefit-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefit-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: var(--bg-team);
+}
+
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name-title {
+  font-weight: 500;
+}
+
+.profession {
+  font-weight: 400;
+}
+
+.name-title,
+.profession {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
