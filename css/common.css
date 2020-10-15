@@ -11,12 +11,13 @@
 
 :root {
   --primary-text-color: #757575;
-  --title-text-color: 212121;
+  --title-text-color: #212121;
   --accent-color: #2196f3;
   --bg-main: #e5e5e5;
   --white: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --bg-dark: #2f303a;
+  --secondary-bg-color: #f5f4fa;
 }
 
 body {
@@ -55,10 +56,6 @@ header {
 .navigation .link {
   color: var(--title-text-color);
 }
-
-/* .title {
-  color: var(--title-text-color);
-} */
 
 .text {
   color: var(--primary-text-color);
